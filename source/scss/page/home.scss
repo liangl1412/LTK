@@ -1,0 +1,33 @@
+.view-wrapper {
+	margin-left:200px;
+	padding:30px;
+	position: relative;
+	.main-content {
+		
+		
+		.card-box {
+			width:90%;
+			border-radius: 5px;
+			padding:15px 10px;
+			background-color:#fff;
+			margin-bottom:30px;
+			overflow: hidden;
+			img {
+				width:150px;
+				float:left;
+				margin-right:10px;
+			}
+			.card-info{
+				h3 {
+					font-size:16px;
+					font-weight: bold;
+				}
+				p {
+					font-size:14px;
+					line-height: 20px;
+					margin-top:15px;
+				}
+			}
+		}
+	}
+}

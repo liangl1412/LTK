@@ -1,0 +1,33 @@
+body,html {
+	height: 100%;
+}
+
+.sidebar-wrapper {
+	width:200px;
+	position:fixed;
+	top:0;
+	bottom:0;
+	background-color:#0b2532;
+	.logo {
+		margin:15px auto;
+	}
+	.sidebar-nav {
+		li {
+			width:100%;
+			padding:30px;
+			.nav-item {
+				display:block;
+				
+				text-align: center;
+				span {
+					display:block;
+					color:#fff;
+				}
+			}
+		}
+		
+	}
+}
+
+
+

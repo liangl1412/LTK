@@ -1,0 +1,11 @@
+.classpath
+assets/css/
+assets/js/
+bower_components/
+node_modules/
+.settings/
+target-eclipse/
+target/
+web-app/WEB-INF/tld/c.tld
+web-app/WEB-INF/tld/fmt.tld
+*.sass-cache
