@@ -9,16 +9,113 @@
       ]
     },
     {  
-      "name":"Zhen, Ji",
-      "Cname":"甄姬",
+      "name":"Le, Jin",
+      "Cname":"乐进",
       "skills":[  
         "jklaskjlfsadkljafkjl",
         "sadfasfsdafsaas"
       ]
     },
     {  
-      "name":"Zhen, Ji",
-      "Cname":"甄姬",
+      "name":"Xu, Huang",
+      "Cname":"徐晃",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Guo, Jia",
+      "Cname":"郭嘉",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Xu, Zhu",
+      "Cname":"许褚",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Zhang, Han",
+      "Cname":"张郃",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+
+    {  
+      "name":"Dian, Wei",
+      "Cname":"典韦",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Xia Hou, Yuan",
+      "Cname":"夏侯渊",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Zhang, Liao",
+      "Cname":"张辽",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Xia Hou, Dun",
+      "Cname":"夏侯惇",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Cao, Pi",
+      "Cname":"曹丕",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Cao, Cao",
+      "Cname":"曹操",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Si Ma, Yi(Change judgement guy)",
+      "Cname":"司马懿",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Xun, Yu",
+      "Cname":"荀彧",
+      "skills":[  
+        "jklaskjlfsadkljafkjl",
+        "sadfasfsdafsaas"
+      ]
+    },
+    {  
+      "name":"Cao, Ren",
+      "Cname":"曹仁",
       "skills":[  
         "jklaskjlfsadkljafkjl",
         "sadfasfsdafsaas"
@@ -27,21 +124,14 @@
   ],
   "wu":[  
     {  
-      "name":"Zhen, Ji",
+      "name":"Guo, Jia",
       "Cname":"甄姬",
       "skills":[  
         "jklaskjlfsadkljafkjl",
         "sadfasfsdafsaas"
       ]
     },
-    {  
-      "name":"Zhen, Ji",
-      "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
-      ]
-    },
+    
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
