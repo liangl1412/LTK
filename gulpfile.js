@@ -1,41 +1,35 @@
 var gulp = require("gulp"),
 	sass = require("gulp-sass"),
-	concat = require("gulp-concat"),
 	connect = require("gulp-connect"),
-	mainBowerFiles = require('main-bower-files');
- 
-gulp.task('lib', function() {
-    return gulp.src(mainBowerFiles())
-        .pipe(concat('lib.js'))
-        .pipe(gulp.dest('assets/js'))
-});
+    webpack = require('webpack-stream');
 
-gulp.task('scripts', function() {
-    return gulp.src('source/js/*')
-        .pipe(concat('main.js'))
-        .pipe(gulp.dest('assets/js'))
+gulp.task('webpack', function() {
+  return gulp.src('app/javascripts/src/app.jsx')
+    .pipe(webpack( require('./webpack.config.js') ))
+    .pipe(gulp.dest('app/javascripts/'));
 });
 
 
 gulp.task('sass',function(){
-	return gulp.src('source/scss/main.scss')
+	return gulp.src('app/stylesheets/scss/main.scss')
 		.pipe(sass())
-		.pipe(gulp.dest('assets/css'))
+		.pipe(gulp.dest('app/stylesheets/'))
 		.pipe(connect.reload());
 });
 
 gulp.task('watch',function() {
-    gulp.watch('source/scss/**/*.scss',['sass']);
-    gulp.watch('bower_components/*',['lib']);
-    gulp.watch('source/js/*',['scripts']);
+    gulp.watch('app/stylesheets/scss/**/*.scss',['sass']);
+    gulp.watch('app/javascripts/src/**/*.jsx',['webpack']);
+    
 });
 
 
 gulp.task('connect', function() {
   connect.server({
+    root:"./app",
     port: 3000,
     livereload: true
   });
 });
 
-gulp.task('default', ['lib', 'sass', 'watch','connect','scripts']);
+gulp.task('default', ['sass', 'watch','connect','webpack']);
