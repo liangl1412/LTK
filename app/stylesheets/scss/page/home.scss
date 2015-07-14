@@ -6,12 +6,12 @@
 		
 		
 		.card-box {
-			width:90%;
 			border-radius: 5px;
 			padding:15px 10px;
 			background-color:#fff;
 			margin-bottom:30px;
 			overflow: hidden;
+			box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.098) 0px 0px 3px;
 			img {
 				width:150px;
 				float:left;
@@ -19,13 +19,21 @@
 			}
 			.card-info{
 				h3 {
-					font-size:16px;
+					font-size:18px;
 					font-weight: bold;
 				}
-				p {
+				.card-skills {
 					font-size:14px;
 					line-height: 20px;
 					margin-top:15px;
+					span {
+						display:block;
+					}
+					.skill-title {
+						font-size:bold;
+						font-size:16px;
+						line-height: 24px;
+					}
 				}
 			}
 		}

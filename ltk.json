@@ -3,122 +3,197 @@
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Le, Jin",
       "Cname":"乐进",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Xu, Huang",
       "Cname":"徐晃",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Guo, Jia",
       "Cname":"郭嘉",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Xu, Zhu",
       "Cname":"许褚",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Zhang, Han",
       "Cname":"张郃",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
 
     {  
       "name":"Dian, Wei",
       "Cname":"典韦",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Xia Hou, Yuan",
       "Cname":"夏侯渊",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Zhang, Liao",
       "Cname":"张辽",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Xia Hou, Dun",
       "Cname":"夏侯惇",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Cao, Pi",
       "Cname":"曹丕",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Cao, Cao",
       "Cname":"曹操",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Si Ma, Yi(Change judgement guy)",
       "Cname":"司马懿",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Xun, Yu",
       "Cname":"荀彧",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Cao, Ren",
       "Cname":"曹仁",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     }
   ],
@@ -126,18 +201,28 @@
     {  
       "name":"Guo, Jia",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     }
   ],
@@ -145,25 +230,40 @@
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     }
   ],
@@ -171,25 +271,40 @@
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     },
     {  
       "name":"Zhen, Ji",
       "Cname":"甄姬",
-      "skills":[  
-        "jklaskjlfsadkljafkjl",
-        "sadfasfsdafsaas"
+      "skills":[{
+          "title":"Luan Wu",
+          "desc":"skill1"
+        },
+        {
+          "title":"Luan Wu2",
+          "desc":"skill2"
+        }
       ]
     }
   ]

@@ -7,12 +7,18 @@ class HeroCard extends React.Component {
 	        // `key` is a React-specific concept and is not mandatory for the
 	        // purpose of this tutorial. if you're curious, see more here:
 	        // http://facebook.github.io/react/docs/multiple-components.html#dynamic-children
-	        <div className="grid-6">
+
+	        <div className="grid-12">
 				<div className="card-box">
 					<img src="assets/img/1.png" />
 					<div className="card-info">
-						<h3>{comment.Cname}</h3>
-						<p className="card-skills">{comment.skills}</p>
+						<h3>{comment.name}</h3>
+						{comment.skills.map(function(object, i){
+					        return <p className="card-skills">
+						        <span className="skill-title">{object.title}</span>
+						        <span>{object.desc}</span>
+					        </p>
+					    })}
 					</div>
 				</div>
 			</div>
