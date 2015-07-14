@@ -23,6 +23,9 @@ body,html {
 					display:block;
 					color:#fff;
 				}
+				&.active span {
+					color:red;
+				}
 			}
 		}
 		

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Router, Route } from 'react-router';
-import { history } from 'react-router/lib/BrowserHistory';
+import { Router, Route,Redirect} from 'react-router';
+import { history } from 'react-router/lib/HashHistory';
 
 import HeroCards from './cards';
 import Nav from './nav';
@@ -20,8 +20,12 @@ import Nav from './nav';
 
 React.render((
 	 <Router history={history}>
-		<Route path="/" component={Nav}>
-		    <Route  path="shu" component={HeroCards}/>
+		<Route component={Nav} >
+        <Redirect from="/" to="shu" />
+		    <Route  path="shu" component={HeroCards} url="shu.json" />
+        <Route  path="wei" component={HeroCards} url="wei.json"/>
+        <Route  path="wu" component={HeroCards} url="wu.json"/>
+        <Route  path="neutral" component={HeroCards} url="neutral.json"/>
 		</Route>
 	</Router>
 ), document.body);

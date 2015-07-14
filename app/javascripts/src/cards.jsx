@@ -6,11 +6,14 @@ class HeroCards extends React.Component {
 
 	constructor(props) {
 	    super(props);
-	    this.state = {data:[]};
+	    this.state = {data:[],url:this.props.route.url};
+
 	 }
-	loadCommentsFromServer() {
+	loadCommentsFromServer(url) {
+
 	    $.ajax({
-	      url: 'https://yiltk.firebaseio.com/wei.json',
+
+	      url: 'https://yiltk.firebaseio.com/'+url,
 	      dataType: 'json',
 	      cache: true,
 	      data:'wu',
@@ -20,12 +23,17 @@ class HeroCards extends React.Component {
 	      }.bind(this)
 	    });
 	}
-	componentDidMount() {
-	    this.loadCommentsFromServer();
+	componentWillMount() {
+	    this.loadCommentsFromServer(this.props.route.url);
 	    
   	}
+  	componentWillReceiveProps(nextProps){ 
+  		this.loadCommentsFromServer(nextProps.route.url);
+  	}
+  	
 
   	render() {
+
 	    return (
 	        <HeroCard data={this.state.data} />
 	    );

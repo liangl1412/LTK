@@ -25,9 +25,14 @@ class HeroCard extends React.Component {
 	      )
 	    });
 		return (
-			<section className="row">
-				{commentNodes}
-			</section>
+			<main className="view-wrapper">
+				<div className="main-content">
+					<section className="row">
+						{commentNodes}
+					</section>
+				</div>
+			</main>
+			
 		)
 			
 	}
