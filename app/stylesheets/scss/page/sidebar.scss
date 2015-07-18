@@ -17,7 +17,6 @@ body,html {
 			padding:30px;
 			.nav-item {
 				display:block;
-				
 				text-align: center;
 				span {
 					display:block;
@@ -33,4 +32,45 @@ body,html {
 }
 
 
+@media (max-width:800px) {
+	.sidebar-wrapper {
+		display:block;
+		width:40px;
+		top:inherit;
+		bottom:20px;
+		right:15px;
+		z-index: 10;
+		background-color:rgba(11,37,50,0.9);
+		border-radius: 20px;
+		-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
 
+	
+		.logo {
+			display:none;
+		}
+		.sidebar-nav {
+			li {
+				padding:0;
+				.nav-item {
+					img {
+						-webkit-filter: grayscale(1);
+						width:30px;
+						display: block;
+						margin:10px auto;
+						opacity:0.5;
+					}
+					&.active img {
+						opacity: 1;
+						-webkit-filter: none;
+					}
+					span {
+						display:none;
+					}
+				}
+			}
+		}
+	}
+
+}

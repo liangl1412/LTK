@@ -2,39 +2,53 @@
 	margin-left:200px;
 	padding:30px;
 	position: relative;
-	.main-content {
 		
 		
-		.card-box {
-			border-radius: 5px;
-			padding:15px 10px;
-			background-color:#fff;
-			margin-bottom:30px;
-			overflow: hidden;
-			box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.098) 0px 0px 3px;
-			img {
-				width:150px;
-				float:left;
-				margin-right:10px;
+	.card-box {
+		border-radius: 5px;
+		padding:15px 10px;
+		background-color:#fff;
+		margin-bottom:30px;
+		overflow: hidden;
+		box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.098) 0px 0px 3px;
+		img {
+			width:150px;
+			float:left;
+			margin-right:10px;
+			
+		}
+		.card-info{
+			h3 {
+				font-size:18px;
+				font-weight: bold;
 			}
-			.card-info{
-				h3 {
-					font-size:18px;
-					font-weight: bold;
+			.card-skills {
+				font-size:14px;
+				line-height: 20px;
+				margin-top:15px;
+				span {
+					display:block;
 				}
-				.card-skills {
-					font-size:14px;
-					line-height: 20px;
-					margin-top:15px;
-					span {
-						display:block;
-					}
-					.skill-title {
-						font-size:bold;
-						font-size:16px;
-						line-height: 24px;
-					}
+				.skill-title {
+					font-size:bold;
+					font-size:16px;
+					line-height: 24px;
 				}
+			}
+		}
+	}
+}
+
+@media (max-width:800px) {
+	.view-wrapper {
+		width:100%;
+		margin-left:0;
+		padding:15px 0;
+		.card-box {
+			img {
+				float:none;
+				display:block;
+				margin:0 auto 20px;
 			}
 		}
 	}
