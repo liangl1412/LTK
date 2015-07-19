@@ -16,7 +16,6 @@ class HeroCards extends React.Component {
 	      url: 'https://yiltk.firebaseio.com/'+url,
 	      dataType: 'json',
 	      cache: true,
-	      data:'wu',
 	      success: function(data) {
 	        this.setState({data: data});
 	        

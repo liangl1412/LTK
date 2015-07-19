@@ -8,3 +8,4 @@ web-app/WEB-INF/tld/fmt.tld
 *.sass-cache
 app/javascripts/bundle.js
 app/stylesheets/main.css
+build/

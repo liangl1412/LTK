@@ -5,7 +5,6 @@ class HeroCard extends React.Component {
 	render() {
 		var commentNodes = this.props.data.map((comment) => {
 		  var imgUrl = "assets/img/hero/" + comment.img + ".jpg";
-
 	      return (
 	        // `key` is a React-specific concept and is not mandatory for the
 	        // purpose of this tutorial. if you're curious, see more here:
