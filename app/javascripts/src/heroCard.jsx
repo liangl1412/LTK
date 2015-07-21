@@ -11,7 +11,7 @@ class HeroCard extends React.Component {
 	        // http://facebook.github.io/react/docs/multiple-components.html#dynamic-children
 
 	        <div className="grid-12">
-				<div className="card-box">
+				<div className="card-box cf">
 					<img src={imgUrl} />
 					<div className="card-info">
 						<h3>{comment.name}</h3>
@@ -21,6 +21,7 @@ class HeroCard extends React.Component {
 						        <span dangerouslySetInnerHTML = {{__html: object.desc}} />
 					        </p>
 					    })}
+					    <span className="card-id">{comment.id}</span>
 					</div>
 				</div>
 			</div>

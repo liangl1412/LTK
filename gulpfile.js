@@ -2,7 +2,8 @@ var gulp = require("gulp"),
 	sass = require("gulp-sass"),
 	connect = require("gulp-connect"),
   webpack = require('webpack-stream'),
-  del = require('del');
+  del = require('del'),
+  uglify = require('gulp-uglify');
 
 gulp.task('webpack', function() {
   return gulp.src('app/javascripts/src/app.jsx')
@@ -32,6 +33,8 @@ gulp.task('connect', function() {
   });
 });
 
+gulp.task('default', ['sass', 'watch','connect','webpack']);
+
 /* -----------------------------
 Gulp build project
 ----------------------------- */
@@ -41,13 +44,19 @@ gulp.task('build:copy', ['clean'], function() {
     
 });
 
+gulp.task('compress',['build:copy'], function() {
+  return gulp.src('build/javascripts/bundle.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('build/javascripts/'));
+});
+
 gulp.task('clean', function(cb){
   del([
     'build/**'
   ],cb)
 });
 
-gulp.task('build', ['build:copy'],function(){
+gulp.task('build',['compress'] ,function(){
   del([
     'build/stylesheets/scss',
     'build/javascripts/src'
@@ -58,6 +67,3 @@ gulp.task('build', ['build:copy'],function(){
 
 
 
-
-
-gulp.task('default', ['sass', 'watch','connect','webpack']);

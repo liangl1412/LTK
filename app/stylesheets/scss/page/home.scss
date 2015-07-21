@@ -9,7 +9,7 @@
 		padding:15px 10px;
 		background-color:#fff;
 		margin-bottom:30px;
-		overflow: hidden;
+		position: relative;
 		box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.098) 0px 0px 3px;
 		img {
 			width:150px;
@@ -35,9 +35,72 @@
 					line-height: 24px;
 				}
 			}
+			.card-id {
+				position:absolute;
+				top:0;
+				right:0;
+				color:#fff;
+				border-radius:5px 5px 0px 0px;
+				background: #0b2532;
+				width: 25px;
+  				height: 25px;
+  				text-align: center;
+  				line-height: 25px;
+  				-webkit-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+				-moz-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+				-ms-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+				-o-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+				filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+				&::before{
+				    content: '';
+				    position: absolute;
+				    top: 100%;
+				    left: 0;
+				    width: 0; 
+				  	height: 0; 
+				  	border-top: 10px solid #0b2532; 
+				  	border-right: 20px solid transparent;
+				 }
+				&::after{
+				    content: '';
+				    position: absolute;
+				    top: 100%;
+				    right: 0;
+				    width: 0; 
+				  	height: 0; 
+				  	border-top: 10px solid #0b2532; 
+				  	border-left: 20px solid transparent;
+				 }
+
+			}
 		}
 	}
 }
+.page-transition-enter {
+  position: absolute;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: translate3d(-200px,0,0);
+}
+
+.page-transition-enter.page-transition-enter-active {
+  transform: translate3d(0,0,0);
+}
+
+.page-transition-leave {
+  position: absolute;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: translate3d(0,0,0);
+  opacity: 0;
+}
+
+.page-transition-leave.page-transition-leave-active {
+  transform: translate3d(0,0,0);
+}
+
 
 @media (max-width:800px) {
 	.view-wrapper {
@@ -51,5 +114,29 @@
 				margin:0 auto 20px;
 			}
 		}
+	}
+	.page-transition-enter {
+	  position: absolute;
+	  transition-duration: .3s;
+	  transition-property: transform;
+	  transition-timing-function: ease-out;
+	  transform: translate3d(-100%,0,0);
+	}
+
+	.page-transition-enter.page-transition-enter-active {
+	  transform: translate3d(0,0,0);
+	}
+
+	.page-transition-leave {
+	  position: absolute;
+	  transition-duration: .3s;
+	  transition-property: transform;
+	  transition-timing-function: ease-out;
+	  transform: translate3d(0,0,0);
+	  opacity: 0;
+	}
+
+	.page-transition-leave.page-transition-leave-active {
+	  transform: translate3d(0,0,0);
 	}
 }

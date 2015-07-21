@@ -17,6 +17,9 @@ class HeroCards extends React.Component {
 	      dataType: 'json',
 	      cache: true,
 	      success: function(data) {
+	      	data.sort(function(a, b){
+   	 			return a.id - b.id;
+			});
 	        this.setState({data: data});
 	        
 	      }.bind(this)

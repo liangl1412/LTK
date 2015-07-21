@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link, RouteHandler } from 'react-router';
+import {Link} from 'react-router';
+import { cloneElement } from 'react/addons';
+var { CSSTransitionGroup } = React.addons;
 
 class Nav extends React.Component {
 	render() {
+		var key = this.props.location.pathname;
 		return(
 			<div id="content-wrapper">
 				<nav className="sidebar-wrapper">
@@ -34,7 +37,9 @@ class Nav extends React.Component {
 						</li>
 					</ul>
 				</nav>
-				{this.props.children}
+		      	<CSSTransitionGroup component="div" transitionName="page-transition">
+		          {cloneElement(this.props.children || <div/>, { key: key })}
+		        </CSSTransitionGroup>
 			</div>
 		)
 	}
