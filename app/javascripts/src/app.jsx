@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route,Redirect} from 'react-router';
 import { history } from 'react-router/lib/HashHistory';
 
-import HeroCards from './cards';
+import CardList from './CardList';
 import Nav from './nav';
 
 /*$.ajax({
@@ -22,10 +22,10 @@ React.render((
 	 <Router history={history}>
 		<Route component={Nav} >
         <Redirect from="/" to="shu" />
-		    <Route  path="shu" component={HeroCards} url="shu.json" />
-        <Route  path="wei" component={HeroCards} url="wei.json"/>
-        <Route  path="wu" component={HeroCards} url="wu.json"/>
-        <Route  path="neutral" component={HeroCards} url="neutral.json"/>
+		    <Route  path="shu" component={CardList} />
+        <Route  path="wei" component={CardList} />
+        <Route  path="wu" component={CardList} />
+        <Route  path="neutral" component={CardList} />
 		</Route>
 	</Router>
 ), document.body);

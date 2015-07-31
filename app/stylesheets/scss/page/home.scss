@@ -2,8 +2,37 @@
 	margin-left:200px;
 	padding:30px;
 	position: relative;
-		
-		
+	
+	.hide {
+		display:none;
+	}
+	.show {
+		display:block;
+	}
+	.fix-header {
+		width:calc(100% - 200px);
+		height:64px;
+		position:fixed;
+		top:0;
+		left:200px;
+		z-index: 10;
+		box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.098) 0px 0px 3px;
+		background-color:#0b2532;
+		color:#fff;
+		span {
+			display:inline-block;
+			text-align: center;
+			width:50%;
+			line-height: 64px;
+			cursor:pointer;
+		}
+		.active {
+			border-bottom:2px solid #BC5044;
+		}
+	}
+	.main-content {
+		margin-top:80px;
+	}
 	.card-box {
 		border-radius: 5px;
 		padding:15px 10px;
@@ -11,6 +40,9 @@
 		margin-bottom:30px;
 		position: relative;
 		box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.098) 0px 0px 3px;
+		&.active {
+			border:2px solid #000;
+		}
 		img {
 			width:150px;
 			float:left;
@@ -18,9 +50,13 @@
 			
 		}
 		.card-info{
+			
 			h3 {
 				font-size:18px;
 				font-weight: bold;
+				i {
+					margin-left:10px;
+				}
 			}
 			.card-skills {
 				font-size:14px;
@@ -82,6 +118,10 @@
 		width:100%;
 		margin-left:0;
 		padding:15px 0;
+		.fix-header {
+			width:100%;
+			left:0;
+		}
 		.card-box {
 			img {
 				float:none;
